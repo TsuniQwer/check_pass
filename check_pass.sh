@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Пароль, который мы хотим проверить
-desired_password="HelloMyFrend#123"
+desired_password="HelloMyFriend#123"
 
 # Перебор всех пользователей в системе
 while IFS=: read -r username _ uid gid gecos home shell; do
